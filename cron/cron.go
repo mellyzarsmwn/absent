@@ -14,7 +14,7 @@ import (
 	"github.com/robfig/cron/v3"
 )
 
-const CRON_CHECKIN = "1 8 * * 1,2,3,4,5"
+const CRON_CHECKIN = "1 10 * * 1,2,3,4,5"
 const CRON_CHECKOUT = "1 20 * * 1,2,3,4,5"
 
 // RunJob process to execute cron job
